@@ -1,0 +1,117 @@
+{
+    "Jugadores": [
+        {
+            "Nombre": "Jokic",
+            "Edad": 26,
+            "Foto":"/img/jokic.png",
+            "Pais": "Estados Unidos",
+            "Bandera":"/img/serbia.png",
+            "Partidos": [
+                {
+                    "Asistencias": 3,
+                    "Rebotes": 10,
+                    "Puntos": 28,
+                    "Fecha": "15-09",
+                    "EquipoContrario": "Los angeles",
+                    "Minutos": "25:00"
+                },
+                {
+                    "Asistencias": 4,
+                    "Rebotes": 8,
+                    "Puntos": 32,
+                    "Fecha": "02-10",
+                    "EquipoContrario": "Minnesotta",
+                    "Minutos": "32:00"
+
+                },
+                {
+                    "Asistencias": 8,
+                    "Rebotes": 11,
+                    "Puntos": 25,
+                    "Fecha": "04-10",
+                    "EquipoContrario": "Cleveland",
+                    "Minutos": "29:00"
+
+                }
+            ]
+        },
+        {
+            "Nombre": "JamesL",
+            "Edad": 35,
+            "Foto":"/img/lebron.png",
+            "Pais": "Estados Unidos",
+            "Bandera":"/img/eeuu.png",
+            "Partidos": [
+                {
+                    "Asistencias":6,
+                    "Rebotes":11,
+                    "Puntos":3,
+                    "Fecha": "18-09",
+                    "EquipoContrario": "Toronto",
+                    "Minutos": "36:00"
+
+                },
+                {
+                    "Asistencias":11,
+                    "Rebotes":6,
+                    "Puntos":2,
+                    "Fecha": "21-09",
+                    "EquipoContrario": "Boston",
+                    "Minutos": "31:00"
+                },
+                {
+                    "Asistencias":5,
+                    "Rebotes":6,
+                    "Puntos":2,
+                    "Fecha": "03-10",
+                    "EquipoContrario": "Washington",
+                    "Minutos": "27:00"
+
+                }
+                ,
+                {
+                    "Asistencias": 7,
+                    "Rebotes": 11,
+                    "Puntos": 19,
+                    "Fecha": "08-10",
+                    "EquipoContrario": "Orlando",
+                    "Minutos": "33:00"
+
+                }
+            ]
+        },{
+            "Nombre": "PaulC",
+            "Edad": 34,
+            "Foto":"/img/paul.png",
+            "Pais": "Serbia",
+            "Bandera":"/img/eeuu.png",
+            "Partidos": [
+                {
+                    "Asistencias": 14,
+                    "Rebotes": 4,
+                    "Puntos": 12,
+                    "Fecha": "19-09",
+                    "EquipoContrario": "San Antonio",
+                    "Minutos": "32:00"
+                },
+                {
+                    "Asistencias": 15,
+                    "Rebotes": 2,
+                    "Puntos": 16,
+                    "Fecha": "07-10",
+                    "EquipoContrario": "Milwakee",
+                    "Minutos": "37:00"
+                }
+                ,
+                {
+                    "Asistencias": 12,
+                    "Rebotes": 5,
+                    "Puntos": 11,
+                    "Fecha": "12-10",
+                    "EquipoContrario": "Phoenix",
+                    "Minutos": "35:00"
+                }
+            ]
+        }
+    ]
+}

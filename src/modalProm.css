@@ -1,0 +1,28 @@
+.container-modal {
+    background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  transition: all .5s;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+ 
+div p {
+    font-size: 100px;
+}
+
+button {
+  width: 55px;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(74, 69, 91);
+  color: #fff;
+  
+}

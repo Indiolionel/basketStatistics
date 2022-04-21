@@ -1,38 +1,80 @@
-.App {
+
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.contenedor-tabla {
+  width: 50%;
+  background-color: rgb(74, 69, 91);
+  height: 100vh;
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-around;
+  
+}
+
+tr {
+  width: 100%;
+}
+td {
+  width: 120px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.caracteristica {
+  color: rgb(228, 230, 232);
+  margin: 10px;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* .caracteristica {
+  background-color: rgb(187, 17, 17);
+} */
+
+
+.tr-caracteristica:nth-child(2n+1) {
+  background-color: rgb(113, 118, 146);
+}
+.tr-caracteristica:nth-child(2n+0) {
+  background-color: rgb(152, 151, 176);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.nombreJugador {
+  width: 50%;
+  font-size: 125px;
+}
+
+.nombre {
+  width: 50%;
+}
+
+.foto {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 35px;
+  color: #fff;
+}
+
+.edad {
+  width: 50%;
+}
+
+.detalle-jugador {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: start;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.detalle-jugador td {
+  width: 50%;
+  text-align: start;
 }
