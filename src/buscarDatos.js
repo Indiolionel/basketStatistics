@@ -14,6 +14,7 @@ function BuscarDato({ funcionTraerDato, openModal}) {
     function doble() {
         funcionTraerDato(dataJugador,caracteristicaJugador);
         openModal(true)
+
         
     }
     
@@ -24,7 +25,7 @@ function BuscarDato({ funcionTraerDato, openModal}) {
             
                 <select name="Jugadores" onChange={cambiarOption}>
 
-                    <option value="nada">Seleccionar</option>
+                    <option value="">Seleccionar</option>
 
                     <option value="Jokic">Jokic</option>
 
@@ -34,14 +35,13 @@ function BuscarDato({ funcionTraerDato, openModal}) {
 
                 </select>
                 
-                
-                <button className="button-mostrar" onClick={() => funcionTraerDato(dataJugador,caracteristicaJugador)}>Buscar</button>
+                <button className="button-mostrar" onClick={() => dataJugador && funcionTraerDato(dataJugador,caracteristicaJugador)}>Buscar</button>
             </form>
             <form className="form-select2" onClick={(e) => e.preventDefault()}>
                 <div>
                  <select name="Jugadores" onChange={cambiarOption2}>
 
-                    <option value="nada">Seleccionar</option>
+                    <option value="">Seleccionar</option>
 
                     <option value="Asistencias">Asistencias</option>
 
@@ -51,7 +51,7 @@ function BuscarDato({ funcionTraerDato, openModal}) {
 
                 </select> 
               
-                <button className="button-mostrar" onClick={doble}>Promedio</button>
+                <button className="button-mostrar" onClick={(caracteristicaJugador && dataJugador) && doble}>Promedio</button>
                 </div>
 
           </form>

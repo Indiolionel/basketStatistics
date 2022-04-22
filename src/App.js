@@ -11,8 +11,10 @@ function App() {
   const [nombreJugador, setNombreJugador] = useState("")
   const [abrirModal, setabrirModal] = useState(false)
 
+
   const arrayWithCategories = ["Fecha", "EquipoContrario", "Asistencias", "Puntos", "Rebotes", "Minutos"]
   const obtenerDato = (datoJugador, caracteristicaJugador) => {
+   
     fetch("/jugadores.json",
       {
         headers: {
@@ -31,8 +33,6 @@ function App() {
         setNombreJugador(arregloJugador)
         setCaracteristicaValor(arregloCaracteristica)
         setCaracteristicaValor2(promedioCaracteristica)
-
-
       });
 
   }
@@ -44,7 +44,8 @@ function App() {
 
         <BuscarDato funcionTraerDato={obtenerDato} openModal={setabrirModal} />
 
-        <div className='contenedor-tabla'>
+       <div className='contenedor-tabla'>
+         
           <table className='table'>
             <div className='foto' >
               <tr className="nombre">{<img src={nombreJugador.Foto} style={{ width: '400px' }} />}</tr>
@@ -66,12 +67,12 @@ function App() {
             </tr>
 
           </table>
-        </div>
+         </div>
+         
 
 
 
       </div>
-
       {(abrirModal) && <Modal caracT={caracteristicaValor2} openModal={setabrirModal} />}
     </>
   );
